@@ -1,6 +1,6 @@
 <?php
 	//Constants coming from hostconfig.
-	define("DB_CONNECT", true);
+	define("DB_CONNECT", false );
 	define("PHP_REDIRECT", true);
 	define("JAVASCRIPT_REDIRECT", true);
 	define("IN_APP", 1);
@@ -24,14 +24,7 @@
 	}
 	define("SITE_URL", "http://" . $_SERVER["SERVER_NAME"] . "" . dirname($sub_dir) . "/");
 
-	if(strpos(strtolower(PHP_OS), "win") !== false)
-	{
-		define("DS", "\\");
-	}
-	else 
-	{
-		define("DS", "/");
-	}
+    define("DS", DIRECTORY_SEPARATOR);
 	
 	//File path to the site.
 	define("ROOT_PATH", dirname(__FILE__) . DS . ".." . DS);

@@ -22,11 +22,11 @@ $module = Request::get("module", "get", "employees", "string");
 if(!in_array($module, $valid_modules))
 {
 	exit("Invalid module.");
-}
+}   
 
 if(!is_alpha($module))
 {
-	exit("Illegal mod	ule name.");
+	exit("Illegal module name.");
 }
 
 //If the user is not logged in and this is not the user module (which renders 
@@ -106,8 +106,7 @@ $action = Request::get("action", "get");
 				$nav->setFormat('<a href="'.generate_url(array("module", "display", "view", "action", "id"), array("module" => '%1$s', "view" => '%2$s')) . '">%3$s</a>');
 //				$nav->setFields(array("Module", "Text"));
 //				$nav->setGroupBy("Text");
-//				var_dump($nav->calcGroupAggregates(4));die(__FILE__." (".__LINE__.") 15 Sep 2009 00:18:37");
-//				echo $nav;
+
 
 				if(isset($user->data))
 				{
@@ -128,7 +127,7 @@ $action = Request::get("action", "get");
 		<div id="main" class="box">
 <?php
 	//Determine the paths of the module files.
-	$modulePath = "modules/" . $module . ".php";
+	$module_path = "modules/" . $module . ".php";
 	$moduleFunctionsPath = "functions/" . $module . ".php";
 
 	//If the files exist load them.
@@ -136,10 +135,11 @@ $action = Request::get("action", "get");
 	{
 		include $moduleFunctionsPath;
 	}
-	if(is_file($modulePath))
+	if(is_file($module_path))
 	{
-		include $modulePath;
-		eval("Module$module::execute();");
+		include $module_path;
+        $module = 'Module' . ucwords($module);
+		$module::execute();
 	}
 	
 ?>
