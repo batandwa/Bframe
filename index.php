@@ -26,7 +26,7 @@ if(!in_array($module, $valid_modules))
 
 if(!is_alpha($module))
 {
-	exit("Illegal module name.");
+	exit("Illegal mod	ule name.");
 }
 
 //If the user is not logged in and this is not the user module (which renders 
@@ -49,7 +49,8 @@ $action = Request::get("action", "get");
 	<link type="text/css" rel="stylesheet" href="css/reset.css" />
 	<link type="text/css" rel="stylesheet" href="css/defaults.css" />
 	<link type="text/css" rel="stylesheet" href="css/dw.css" />
-	<link type="text/css" rel="stylesheet" href="css/form.css" />
+    <link type="text/css" rel="stylesheet" href="css/nav.css" />
+    <link type="text/css" rel="stylesheet" href="css/form.css" />
 	<link type="text/css" rel="stylesheet" href="css/template.css" />
 	<link type="text/css" rel="stylesheet" href="css/interface.css" />
 	<link type="text/css" rel="stylesheet" href="css/julian_robichaux_date_picker.css" />
@@ -66,11 +67,11 @@ $action = Request::get("action", "get");
 </head>
 <body class="bg_texture <?php echo $module ?>">
 	<div id="wrapper">
-	
-		<div id="header">
+    
+        <div id="header">
 <!--			<img src="images/s2w_logo.jpg" alt="Spin 2 Win logo" />-->
 			<img src="images/logo.gif" alt="Sabila logo" />
-		</div>
+        </div>
 		<div id="user" class="blue_bar_repeat text3">
 		
 		<?php if(isset($user->data)) { ?>

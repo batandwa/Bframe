@@ -1,0 +1,42 @@
+/*----------------------------*\
+
+        MAIN NAVIGATION
+
+\*----------------------------*/
+#navigation
+{
+  float: right;
+  width: 400px;
+}
+
+#navigation .menu
+{
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+#navigation .menu li
+{
+  padding-bottom: 1px; /* Prevents IE(6) from assign unwanted padding. */
+  display: inline;
+}
+
+#navigation .menu li a
+{
+  padding-left: 10px;
+  text-decoration : none;
+  font-size : 1.3em;
+  display: block;
+  color: #222222;
+  line-height: 2em;
+  display: block;
+  height: 34px;
+  margin-left: 1px;
+  background: #ebb81b url("../images/nav_bg.jpg") repeat-x;
+  float: left;
+}
+#navigation .menu a:hover
+{
+  background-color: #222222;
+  color : #999999;
+}

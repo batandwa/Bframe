@@ -1,50 +1,50 @@
 /*----------------------------*\
 
-			MAIN
+      MAIN
 
 \*----------------------------*/
 #wrapper
 { 
-	width: 100%;
-	border-top: 0px;
-	text-align: left;
-	font-size: 12px;
+  width: 100%;
+  border-top: 0px;
+  text-align: left;
+  font-size: 12px;
 }
 /*----------------------------*\
 
-			HEAD
+      HEAD
 
 \*----------------------------*/
 #header
 {
-	background: url("../images/header_bg.jpg") no-repeat right;
-	height: 89px;
+  background: url("../images/header_bg.jpg") no-repeat right;
+  height: 89px;
 	background-color: #fff;
 }
 #header img
 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 /*----------------------------*\
 
-			SIDEBARS
+      SIDEBARS
 
 \*----------------------------*/
 #sidebar1
 {
-	float: left;
+  float: left;
 }
 #sidebar2
 {
-	float: right;
+  float: right;
 }
 #sidebar1,
 #sidebar2
 {
-	width: 200px;
-	border: 1px solid #cccccc;
-	margin-top: 20px;
+  width: 200px;
+  border: 1px solid #cccccc;
+  margin-top: 20px;
 }
 
 #user
@@ -53,47 +53,9 @@
 
 #user_info
 {
-	margin: 0px;
-	font-size: 1.1em;
+  margin: 0px;
+  font-size: 1.1em;
 }
-
-/*----------------------------*\
-
-        MAIN NAVIGATION
-
-\*----------------------------*/
-#mainNav
-{
-	background-color: #ddd;
-}
-
-#mainNav
-{
-	list-style-image: none;
-	list-style-position: outside;
-	list-style-type: none;
-}
-#mainNav li
-{
-	padding-bottom:1px; /* Prevents IE(6) from assign unwanted padding. */
-}
-
-#mainNav li a
-{
-	padding-left: 10px;
-	text-decoration : none;
-	font-size : 1.3em;
-	display: block;
-	color: #222222;
-	line-height: 2em;
-	display: block;
-}
-#mainNav a:hover
-{
-	background-color: #222222;
-	color : #999999;
-}
-
 
 /*----------------------------*\
 
@@ -103,50 +65,50 @@
 /* The list container. */
 #moduleNav
 {
-	height: 1.2em;
+  height: 1.2em;
 }
 
 #moduleNav
 {
-	list-style: none; /* Remove the bullets. */
-	display: inline; /* I'm not sure what this does, but it has an effect. */
+  list-style: none; /* Remove the bullets. */
+  display: inline; /* I'm not sure what this does, but it has an effect. */
 }
 
 #moduleNav li
 {
-	float: left;
-	line-height: normal; /* Not sure what this does. */
-	margin: 0px 4px; /* Space between each link. */
+  float: left;
+  line-height: normal; /* Not sure what this does. */
+  margin: 0px 4px; /* Space between each link. */
 }
 
 /* Navigation link. */ 
 #moduleNav a
 {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 
 /* Navigation link, mouse over. */
 #moduleNav a:hover
 {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 
 /*----------------------------*\
 
-			CONTENT
+      CONTENT
 
 \*----------------------------*/
 
 #main
 { 
-	width: 780px;
-	margin: 20px auto 0;
+  width: 780px;
+  margin: 20px auto 0;
 }
 
 #content
 {
-	clear: both;
+  clear: both;
 }
 
 .zebra .even
@@ -155,31 +117,31 @@
 
 .hover_hilite_row tr.row_norm:hover td
 {
-	background-color: #d4d4d4;
+  background-color: #d4d4d4;
 }
 
 .hover_hilite_row tr.row_alt:hover td
 {
-	background-color: #d4d4ff;
+  background-color: #d4d4ff;
 }
 
 .tableBreak 
 {
-	border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555555;
 }
 .groupBy td
 {
-	border-bottom: 1px solid #333;
-	padding: 3px;
-	padding-top: 10px;
+  border-bottom: 1px solid #333;
+  padding: 3px;
+  padding-top: 10px;
 } 
 .groupBy 
 {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 .highlighted 
 {
-	background-color: #ff0; 
+  background-color: #ff0; 
 }
 
 h2
@@ -193,7 +155,7 @@ table .number { text-align: center }
 table .leave_type { width: 90px }
 table .date { width: 75px }
 .employee_name { text-decoration: underline; }
-	
+  
 
 
 /*----------------------------*\
@@ -203,14 +165,14 @@ table .date { width: 75px }
 \*----------------------------*/
 #main td, #main th
 {
-	padding: 3px 10px 3px 3px;
+  padding: 3px 10px 3px 3px;
 }
 
 #main table,
 #main th
 {
 }
-	
+  
 /*----------------------------*\
 
                MISC
@@ -219,22 +181,22 @@ table .date { width: 75px }
 
 .quick_links
 {
-	background-color: #131C5D;
-	margin: 0 0 5px 0;
-	font-size: 1.3em;
-	color: #fff;
-	font-weight: bold;
-	padding: 5px;
-	
+  background-color: #131C5D;
+  margin: 0 0 5px 0;
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  
 }
 .quick_links a
 {
-	color: #fff;
-	margin: 0 5px 15px 0;
-	text-decoration: none;
+  color: #fff;
+  margin: 0 5px 15px 0;
+  text-decoration: none;
 }
 .quick_links a:hover
 {
-	color: #f00;
-	text-decoration: underline;
+  color: #f00;
+  text-decoration: underline;
 }
