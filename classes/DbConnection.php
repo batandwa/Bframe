@@ -38,11 +38,11 @@ class DbConnection extends Base
 		
 		if($this->connect() == self::ERR_CONN)
 		{
-			exit("Error connecting to database");
+			app_error("Error connecting to database", 1);
 		}
 		else if($this->connect() == self::ERR_DB_SELECT)
 		{
-			exit("Error getting database");
+			app_error("Error getting database");
 		}
 	}
 	

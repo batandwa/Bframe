@@ -10,6 +10,9 @@ class ModuleUser extends Module
 
 class ModuleUserView extends Base
 {
+	public function index() {
+		$this->login();
+	}
 	public function login()
 	{
 		$username = Request::get("username", "post", null);

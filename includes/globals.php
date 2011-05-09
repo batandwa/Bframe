@@ -6,12 +6,12 @@
 	define("IN_APP", 1);
 	define("TIMEZONE", "Africa/Johannesburg");
 	
-	define("DB_HOST", "localhost");
+	define("DB_HOST", "dev");
 //	define("DB_USER", "sabila");
 //	define("DB_PASSWORD", "Titp4a2@sabila@#!");
 	define("DB_USER", "root");
 	define("DB_PASSWORD", "admin");
-	define("DB_NAME", "leave_manager");
+	define("DB_NAME", "sakila");
 	
 	$sub_dir = $_SERVER["REQUEST_URI"];
 	if(strpos($sub_dir, "?") !== false)

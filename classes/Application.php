@@ -60,7 +60,6 @@ class Application extends Base
 	public function init()
 	{
 		date_default_timezone_set(TIMEZONE);
-		require_once("includes/debug.php" . "");
 		
 		Session::instance();
 		$notifications =& Notification::instance();
