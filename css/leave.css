@@ -1,0 +1,10 @@
+table.leave .col_describ
+{
+	min-width: 240px;
+}
+
+table.leave td,
+table.leave th
+{
+	white-space: nowrap;
+}

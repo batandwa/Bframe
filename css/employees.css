@@ -1,0 +1,15 @@
+table.employees
+{
+	width: 100%;
+}
+
+table.employees td,
+table.employees th
+{
+	white-space: nowrap;
+}
+
+table.leave_history .col_describ
+{
+	min-width: 240px;
+}

@@ -1,0 +1,68 @@
+form p
+{
+	margin-bottom: 10px;
+}
+
+label 
+{
+	width: 80px;
+}
+
+.user #main
+{
+	width: 240px;
+}
+
+.user #main
+{
+	width: 240px;
+}
+
+.user #main td,
+.user #main th
+{
+	padding: 0; 
+	line-height: 2px;
+	vertical-align: middle;
+}
+
+.user #main .login_controls td
+{
+	padding: 2px 5px; 
+}
+
+.user #main .login_controls
+{
+	background-color: #fff;
+}
+
+.user #main .label
+{
+	width: 92px;
+}
+
+.user #main .button_row td
+{
+	padding-left: 87px;
+}
+
+.user #main table
+{
+	border: none;
+}
+
+.user #main tr
+{
+	line-height: 10px; 
+}
+
+.user #main.box
+{
+	border: none; 
+	background: none;
+}
+
+#loginform table
+{
+	width: 100%;
+}

@@ -1,0 +1,132 @@
+fieldset { border: none; }
+
+.notifications
+{
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+.notifications.floating
+{
+/*
+	position: absolute;
+	top: 50px;
+*/
+}
+.notifications .details
+{
+	font-style: italic;
+	margin-left: 2em;
+	display: block;
+	margin-top: 0.4em;
+}
+.notifications input
+{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.notifications p
+{
+	margin: 5px auto;
+	width: 450px;
+	
+}
+.warning
+{
+	color: #FF9900;
+	border-color :#c17300;
+}
+.notifications .error
+{
+	color: #ff0000;
+	border-color :#c13838;
+}
+.notifications .success
+{
+	color: #00ff00;
+	border-color :#00aa00;
+}
+.notifications .information
+{
+	color: #DBFFFF;
+	border-color :#00209F;
+}
+
+.paging
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+.paging a
+{
+	padding: 2px;
+	margin: 2px 3px;
+}
+
+.noborder { : none !important; }
+.nowrapp { border: none !important; }
+.nodisplay { display: none; }
+.minimalwidth { width: 1px; }
+.smallerText { font-size: 90%; }
+.monospacedText { font-family: 'andale mono','lucida console',monospace; }
+.clear { clear: both; }
+.first { margin-left: 0pt; padding-left: 0pt; }
+.last { margin-right: 0pt; padding-right: 0pt; }
+.xdebug-var-dump { font-size: 13px; }
+
+p, table { font-size: 1em; line-height: 1.4em; margin-bottom: 10px; }
+h3 { font-size: 1.4em; margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid #555 }
+.space
+{
+	background:#ffffff none repeat scroll 0%;
+	color: #ffffff;
+	height: 10px;
+}
+hr
+{
+	background:#dddddd none repeat scroll 0%;
+	border:medium none;
+	clear:both;
+	color:#dddddd;
+	float:none;
+	height:0.1em;
+	margin: 0.5em 0;
+	width:100%;
+}
+
+.icon
+{
+	padding-left: 18px;
+	background: transparent no-repeat 0 50%;
+}
+
+.icon_delete
+{
+	background-image: url("../images/icons/delete.gif");
+}
+.icon_edit
+{
+	background-image: url("../images/icons/edit.gif");
+}
+.icon_back
+{
+	background-image: url("../images/icons/back.gif");
+}
+.icon_save
+{
+	background-image: url("../images/icons/save.gif");
+}
+.icon_add
+{
+	background-image: url("../images/icons/add.gif");
+}
+.icon_employees
+{
+	background-image: url("../images/icons/employees.png");
+}
+.icon_history
+{
+	background-image: url("../images/icons/history.gif");
+}

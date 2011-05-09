@@ -1,0 +1,19 @@
+.dpDiv {  }
+.dpTable { border: 1px solid rgb(170, 170, 170); font-family: Tahoma,Arial,Helvetica,sans-serif; font-size: 12px; text-align: center; color: rgb(80, 80, 80); background-color: rgb(236, 233, 216); }
+.dpTR {  }
+.dpTitleTR {  }
+.dpDayTR {  }
+.dpTodayButtonTR {  }
+.dpTD { border: 1px solid rgb(236, 233, 216); }
+.dpDayHighlightTD { border: 1px solid rgb(170, 170, 170); background-color: rgb(204, 204, 204); }
+.dpTDHover { border: 1px solid rgb(136, 136, 136); background-color: rgb(172, 169, 152); cursor: pointer; color: red; }
+.dpTitleTD {  }
+.dpButtonTD {  }
+.dpTodayButtonTD {  }
+.dpDayTD { border: 1px solid rgb(170, 170, 170); background-color: rgb(204, 204, 204); color: white; }
+.dpTitleText { font-size: 12px; color: gray; font-weight: bold; }
+.dpDayHighlight { color: rgb(64, 96, 255); font-weight: bold; }
+ /*.dpButton { padding: 0px; background: rgb(216, 232, 255) none repeat scroll 0% 0%; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 10px; color: gray; font-weight: bold; }*/
+.dpButton { padding: 0px; font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 10px; color: gray; font-weight: bold; }
+.dpTodayButton { font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif; font-size: 10px; color: gray; font-weight: bold; }
+.dpTodayButton { background: auto }

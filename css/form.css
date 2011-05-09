@@ -1,0 +1,19 @@
+div.form-container { padding: 4px; background-color: rgb(255, 255, 255); }
+p.legend { margin-bottom: 1em; }
+p.legend em { color: rgb(204, 0, 0); font-style: normal; }
+div.errors { border: 1px solid rgb(255, 204, 102); margin: 0pt 0pt 10px; padding: 5px 10px; background-color: rgb(255, 255, 204); }
+div.errors p { margin: 0pt; }
+div.errors p em { color: rgb(204, 0, 0); font-style: normal; font-weight: bold; }
+div.form-container form p { margin: 0pt; }
+div.form-container form p.note { margin-left: 170px; font-size: 90%; color: rgb(51, 51, 51); }
+div.form-container form fieldset { margin: 0; padding: 0px; }
+div.form-container form legend { display:none; font-weight: bold; color: rgb(102, 102, 102); }
+div.form-container form fieldset div { padding: 0.25em 0pt; }
+div.form-container label, div.form-container span.label { margin-right: 10px; padding: 5px; padding-right: 10px; width: 150px; display: block; float: left; text-align: left; position: relative; text-transform: lowercase; }
+div.form-container label.error, div.form-container span.error { color: rgb(204, 0, 0); }
+div.form-container label em, div.form-container span.label em { position: absolute; right: 0pt; font-size: 120%; font-style: normal; color: rgb(204, 0, 0); }
+div.form-container input.error { border-color: rgb(204, 0, 0); background-color: rgb(255, 238, 255); }
+div.form-container input:focus, div.form-container input.error:focus, div.form-container textarea:focus { border-color: rgb(255, 204, 102); background-color: rgb(255, 255, 204); }
+div.form-container div.controlset label, div.form-container div.controlset input { display: inline; float: none; }
+div.form-container div.controlset div { margin-left: 170px; }
+div.form-container div.buttonrow { margin-left: 180px; }
