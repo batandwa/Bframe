@@ -69,8 +69,7 @@ $action = Request::get("action", "get");
 	<div id="wrapper">
     
         <div id="header">
-<!--			<img src="images/s2w_logo.jpg" alt="Spin 2 Win logo" />-->
-			<img src="images/logo.gif" alt="Sabila logo" />
+            <img src="myomege_logo.jpg" alt="MyOmega" />
         </div>
 		<div id="user" class="blue_bar_repeat text3">
 		
